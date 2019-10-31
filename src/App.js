@@ -32,7 +32,7 @@ function App(props) {
     setProducts(products);
     if (userOrder.length) setTotal(userOrder.reduce(reducerQty, 0));
     if (showCard) setTotalPrice(userOrder.reduce(reducerPrice, 0));
-  }, [card, userOrder, showCard, qty]);
+  }, [card, userOrder, setProducts,  showCard, qty]);
 
   const add = e => {
     const currentId = e.currentTarget.id;

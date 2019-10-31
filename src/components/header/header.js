@@ -54,8 +54,8 @@ function Header(props) {
 }
 
 Header.propTypes = {
-  openCard: PropTypes.func.isRequired,
-  total: PropTypes.number.isRequired
+  openCard: PropTypes.func,
+  total: PropTypes.number
 };
 
 export default Header;
