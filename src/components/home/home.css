@@ -1,0 +1,10 @@
+.entry-image {
+  background: url("../../images/home.jpg") no-repeat center center / cover;
+  height: 600px;
+}
+h3.well {
+  color: #0e58a4;
+  font-size: 23px;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
